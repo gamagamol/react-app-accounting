@@ -1,0 +1,92 @@
+   @import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Inder', sans-serif;
+
+
+
+        }
+
+        body {
+            background-color: #f8f2f2;
+
+        }
+
+        .question {
+            text-align: justify;
+            border-radius: 40px;
+            background-color: #f8f2f2;
+
+        }
+
+        .answer {
+
+            width: 18rem;
+            border-radius: 20px;
+            background-color: #f8f2f2;
+
+        }
+
+        .pilihan {
+            width: 30px;
+            height: 30px;
+            border-style: solid;
+            border-color: #c63e3e;
+            border-radius: 50%;
+            text-align: center;
+            color: black;
+            margin-bottom: 10px;
+            background-color: #f8f2f2;
+
+        }
+
+        .soal {
+            font-size: 23px;
+            background-color: #f8f2f2;
+
+        }
+
+        .credit-account {
+            text-align: right;
+            background-color: #f8f2f2;
+
+        }
+
+        .navbar {
+            background-image: url("../Assets/header_background.jpg");
+        }
+
+        .garis {
+            height: 10px;
+            background: rgb(65, 217, 61);
+            background: linear-gradient(90deg, rgba(65, 217, 61, 1) 62%, rgba(237, 202, 80, 1) 92%);
+        }
+
+        .container{
+            background-color: #f8f2f2 ;
+        }
+
+
+        .jurnal{
+
+            border-radius:20px ;
+        }
+        .table{
+             border-color:#c63e3e ;
+        }
+        .account{
+            width: 10rem;
+            border: none;
+            background-color:#f8f2f2 ;
+        }
+        .jawaban{
+
+             width: 10rem;
+            border: none;
+        }
+
+        .margin-top{
+            margin-top: 100px;
+        }
