@@ -2,7 +2,8 @@
 import './css/soal.css'
 import iconquiz from './Assets/icon_quiz.png'
 import playblack from './Assets/play_black.png'
-
+import { BrowserRouter, Route, link } from 'react-router-dom'
+import MainSoal from './MainSoal'
 
 
 const Main = () => {
@@ -15,12 +16,17 @@ const Main = () => {
                 <div className="col">
                     <h1 className="text-center">Lets Start The Quiz</h1>
                 </div>
-                    <div className="col text-center">
-                  <img src={playblack} width="300px"/>
+                <div className="col text-center">
+                    
+                     <img src={playblack} width="300px"/>
                         
                 </div>
             </div>
-          </div>
+            </div>
+
+
+
+            
     )
 }
 
